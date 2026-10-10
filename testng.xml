@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Automation Test Suite">
+	
+	<listeners>
+    <listener class-name="com.automation.listeners.TestListener"/>
+    </listeners>
+
+    <test name="SauceDemo Tests">
+		
+
+        <classes>
+
+            <class name="com.automation.tests.LoginTest"/>
+            <class name="com.automation.tests.RemoveCartTest"/>
+            <class name="com.automation.tests.CheckoutTest"/>
+            <class name="com.automation.tests.InvalidLoginTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
+
